@@ -1,0 +1,12 @@
+# 登录凭据：真实 secrets 只保存在本地，切勿提交
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 运行产物（报表/过程量导出）
+*.xlsx
+
+# 本地工具目录
+.codegraph/
